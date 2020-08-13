@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 0px30px;
+  padding: 0px 30px;
   min-height: calc(
     100vh - 200px
   ); /* El ancho será igual al tamaño de todo el height menos 200px (100px del header + 100px del footer) */
@@ -14,13 +14,12 @@
   background-color: rgba(255, 255, 255, 0.1);
   border: 2px solid white;
   border-radius: 40px;
-  box-shadow: 014px28pxrgba (0, 0, 0, 0.25), 010px10pxrgba (0, 0, 0, 0.22);
+  box-shadow: 014px28pxrgba (0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-height: 700px;
-  padding: 60px60px40px;
+  padding: 60px 60px 40px;
   width: calc(100% / 2);
 }
 
@@ -108,5 +107,5 @@
   font-family: "Muli", sans-serif;
   height: 50px;
   letter-spacing: 1px;
-  margin: 10px0px;
+  margin: 10px 0px;
 }

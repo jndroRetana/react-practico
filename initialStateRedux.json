@@ -1,7 +1,7 @@
 {
   "initalState": {
-    "user": {},
-    "playing": {},
+    "user": [],
+    "playing": [],
     "mylist": [],
     "trends": [
       {

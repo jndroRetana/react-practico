@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { Search } from "../components/Search";
 import { Categories } from "../components/Categories";
 import { Carrusel } from "../components/Carrusel";
-import { CarruselItem } from "../components/CarruselItem";
+import CarruselItem from "../components/CarruselItem";
 
 import "../assets/styles/App.scss";
 
@@ -15,7 +15,9 @@ const Home = ({ mylist, trends, originals }) => {
       <Categories title="Mi lista">
         <Carrusel>
           {mylist.length > 0 &&
-            mylist.map((item) => <CarruselItem key={item.id} />)}
+            mylist.map((item) => (
+              <CarruselItem key={item.id} {...item} isList />
+            ))}
         </Carrusel>
       </Categories>
 
